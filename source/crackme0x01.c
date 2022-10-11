@@ -6,6 +6,7 @@ int main(void)
 
 	printf("IOLI Crackme Level 0x01\n");
 	printf("Password: ");
+    fflush(stdout);
 	scanf("%d", &i);
 
 	if (i == 0x149a) {
